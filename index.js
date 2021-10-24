@@ -31,7 +31,7 @@ function calculateGasMargin(value) {
                 Array(numsTransaction)).map(
                     () => contractWithSigner['buyTokens(uint256)'](amountToBuy, {
                         gasLimit,
-                        gasPrice: config.gasPrices.instance
+                        gasPrice: config.gasPrices[config.gasPrice]
                     })
                 )
             )

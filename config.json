@@ -2,6 +2,7 @@
   "numsTransaction": "1",
   "amountToBuy": "5",
   "contractAddress": "0x647308569cc79de709123112ba50a850e94cce1d",
+  "gasPrice": "instance",
   "gasPrices": {
     "standard": "5000000000",
     "fast": "6000000000",
